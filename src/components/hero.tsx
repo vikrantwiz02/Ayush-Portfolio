@@ -1,10 +1,9 @@
 "use client"
 
-import { useEffect, useState } from "react"
+import { useEffect, useState, useCallback } from "react"
 import { motion } from "framer-motion"
 import { Button } from "@/components/ui/button"
 import { ArrowRight, Github, Linkedin } from "lucide-react"
-import Link from "next/link"
 import type { SVGProps } from "react"
 
 const CodeChefIcon = ({ className, ...props }: SVGProps<SVGSVGElement>) => (
@@ -43,6 +42,17 @@ export default function Hero() {
     transition: { duration: 0.6 },
   }
 
+  const scrollToSection = useCallback((sectionId: string) => {
+    const element = document.getElementById(sectionId)
+    if (element) {
+      const offsetTop = element.getBoundingClientRect().top + window.pageYOffset
+      window.scrollTo({
+        top: offsetTop - 80, // Adjust for navbar height
+        behavior: "smooth",
+      })
+    }
+  }, [])
+
   return (
     <div className="relative min-h-screen flex items-center justify-center overflow-hidden py-20">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
@@ -78,17 +88,22 @@ export default function Hero() {
             animate="animate"
             className="flex flex-col sm:flex-row gap-4 justify-center mb-8"
           >
-            <Link href="projects" passHref>
-              <Button size="lg" className="gradient-bg text-white hover:opacity-90">
-                View My Work
-                <ArrowRight className="ml-2 h-4 w-4" />
-              </Button>
-            </Link>
-            <Link href="contact" passHref>
-              <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
-                Contact Me
-              </Button>
-            </Link>
+            <Button
+              size="lg"
+              className="gradient-bg text-white hover:opacity-90"
+              onClick={() => scrollToSection("projects")}
+            >
+              View My Work
+              <ArrowRight className="ml-2 h-4 w-4" />
+            </Button>
+            <Button
+              size="lg"
+              variant="outline"
+              className="text-white border-white hover:bg-white/10"
+              onClick={() => scrollToSection("contact")}
+            >
+              Contact Me
+            </Button>
           </motion.div>
         </div>
 
