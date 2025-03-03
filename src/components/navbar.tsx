@@ -24,7 +24,7 @@ export default function Navbar() {
     if (element) {
       const offsetTop = element.getBoundingClientRect().top + window.pageYOffset
       window.scrollTo({
-        top: offsetTop - 80, // Adjust for navbar height
+        top: offsetTop - 80,
         behavior: "smooth",
       })
     }

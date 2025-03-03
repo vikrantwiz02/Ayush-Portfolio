@@ -78,13 +78,13 @@ export default function Hero() {
             animate="animate"
             className="flex flex-col sm:flex-row gap-4 justify-center mb-8"
           >
-            <Link href="/projects" passHref>
+            <Link href="projects" passHref>
               <Button size="lg" className="gradient-bg text-white hover:opacity-90">
                 View My Work
                 <ArrowRight className="ml-2 h-4 w-4" />
               </Button>
             </Link>
-            <Link href="/contact" passHref>
+            <Link href="contact" passHref>
               <Button size="lg" variant="outline" className="text-white border-white hover:bg-white/10">
                 Contact Me
               </Button>
