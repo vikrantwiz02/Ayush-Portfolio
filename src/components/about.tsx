@@ -63,7 +63,7 @@ export default function About() {
             <div className="grid grid-cols-1 gap-4">
               <Card>
                 <CardContent className="p-4">
-                  <div className="text-4xl font-bold text-primary">50+</div>
+                  <div className="text-4xl font-bold text-primary">15+</div>
                   <div className="text-sm text-muted-foreground">Projects Completed</div>
                 </CardContent>
               </Card>

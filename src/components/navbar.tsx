@@ -44,7 +44,7 @@ export default function Navbar() {
           </Link>
 
           <nav className="hidden md:flex items-center space-x-8">
-            {["home", "about", "skills", "projects", "contact"].map((item) => (
+            {["about", "skills", "projects", "contact"].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}
@@ -71,7 +71,7 @@ export default function Navbar() {
       {isMobileMenuOpen && (
         <div className="md:hidden bg-background/95 backdrop-blur-md border-b">
           <div className="container mx-auto px-4 py-4 flex flex-col space-y-4">
-            {["home", "about", "skills", "projects", "contact"].map((item) => (
+            {["about", "skills", "projects", "contact"].map((item) => (
               <button
                 key={item}
                 onClick={() => scrollToSection(item)}

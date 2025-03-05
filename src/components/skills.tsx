@@ -38,6 +38,15 @@ export default function Skills() {
     { name: "SEO", level: 75 },
   ]
 
+  const techLogos = {
+    "React": "/react.png",
+    "Next.js": "/logos/nextjs-logo.svg",
+    "Node.js": "/logos/nodejs-logo.svg",
+    "TypeScript": "/logos/typescript-logo.svg",
+    "Tailwind": "/logos/tailwind-logo.svg",
+    "MongoDB": "/logos/mongodb-logo.svg",
+  }
+
   const fadeInUp = {
     initial: { opacity: 0, y: 20 },
     animate: { opacity: 1, y: 0 },
@@ -104,7 +113,7 @@ export default function Skills() {
                 <CardContent className="p-6 flex flex-col items-center justify-center text-center">
                   <div className="w-16 h-16 mb-4 flex items-center justify-center">
                     <img
-                      src={`/placeholder.svg?height=64&width=64&text=${tech}`}
+                      src={techLogos[tech]}
                       alt={tech}
                       className="max-w-full max-h-full transition-transform duration-300 hover:scale-110"
                     />
@@ -143,4 +152,3 @@ function SkillBar({ name, level, index }: { name: string; level: number; index: 
     </motion.div>
   )
 }
-
