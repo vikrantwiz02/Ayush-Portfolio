@@ -41,10 +41,10 @@ export default function Skills() {
   const techLogos = {
     "React": "/react.png",
     "Next.js": "/next.js.svg",
-    "Node.js": "/logos/nodejs-logo.svg",
-    "TypeScript": "/logos/typescript-logo.svg",
-    "Tailwind": "/logos/tailwind-logo.svg",
-    "MongoDB": "/logos/mongodb-logo.svg",
+    "Node.js": "/nodejs.png",
+    "TypeScript": "/typescript.png",
+    "Tailwind": "/tailwind.png",
+    "MongoDB": "/mongoDB.jpeg",
   }
 
   const fadeInUp = {
@@ -102,7 +102,7 @@ export default function Skills() {
           variants={fadeInUp}
           className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 pt-8"
         >
-          {["React", "Next.js", "Node.js", "TypeScript", "Tailwind", "MongoDB"].map((tech, index) => (
+          {(["React", "Next.js", "Node.js", "TypeScript", "Tailwind", "MongoDB"] as (keyof typeof techLogos)[]).map((tech, index) => (
             <motion.div
               key={index}
               initial={{ opacity: 0, y: 20 }}
