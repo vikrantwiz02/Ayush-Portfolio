@@ -40,7 +40,7 @@ export default function Skills() {
 
   const techLogos = {
     "React": "/react.png",
-    "Next.js": "/logos/nextjs-logo.svg",
+    "Next.js": "/next.js.svg",
     "Node.js": "/logos/nodejs-logo.svg",
     "TypeScript": "/logos/typescript-logo.svg",
     "Tailwind": "/logos/tailwind-logo.svg",
@@ -111,7 +111,7 @@ export default function Skills() {
             >
               <Card className="overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
                 <CardContent className="p-6 flex flex-col items-center justify-center text-center">
-                  <div className="w-16 h-16 mb-4 flex items-center justify-center">
+                  <div className="w-96 h-96 mb-4 flex items-center justify-center">
                     <img
                       src={techLogos[tech]}
                       alt={tech}
