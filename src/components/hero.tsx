@@ -126,7 +126,7 @@ export default function Hero() {
             variant="ghost"
             size="icon"
             className="rounded-full text-white hover:text-blue-400 hover:bg-white/10"
-            onClick={() => window.open("https://www.linkedin.com/in/ayush-kumar-4b2458280/", "_blank")}
+            onClick={() => window.open("https://www.linkedin.com/in/ayushkumab5u6/", "_blank")}
             aria-label="LinkedIn Profile"
           >
             <Linkedin className="h-5 w-5" />
@@ -135,7 +135,7 @@ export default function Hero() {
             variant="ghost"
             size="icon"
             className="rounded-full text-white hover:text-blue-400 hover:bg-white/10"
-            onClick={() => window.open("https://www.codechef.com/users/supernova0311", "_blank")}
+            onClick={() => window.open("https://www.codechef.com/users/ayush_ignites", "_blank")}
             aria-label="CodeChef Profile"
           >
             <CodeChefIcon className="h-5 w-5" />
