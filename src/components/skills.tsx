@@ -44,7 +44,7 @@ export default function Skills() {
     "Node.js": "/nodejs.png",
     "TypeScript": "/typescript.png",
     "Tailwind": "/tailwind.png",
-    "MongoDB": "/mongoDB.jpeg",
+    "MongoDB": "/mongodb.svg",
   }
 
   const fadeInUp = {
