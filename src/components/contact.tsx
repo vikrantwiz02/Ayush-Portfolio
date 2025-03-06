@@ -148,7 +148,7 @@ export default function Contact() {
 
               <div className="h-full min-h-[300px] lg:min-h-full">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.712753883726!2d79.01142637488447!3d23.173681811313585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981ae115e5cfc7d%3A0x5e5c4c2d79b3f5e6!2sPDPM%20Indian%20Institute%20of%20Information%20Technology%2C%20Design%20%26%20Manufacturing%2C%20Jabalpur!5e0!3m2!1sen!2sin!4v1710021234567!5m2!1sen!2sin"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.7158391136635!2d79.00500377488446!3d23.173596811315125!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981ae1268b4a1b1%3A0xb4b2c22a7a773bf!2sPDPM%20Indian%20Institute%20of%20Information%20Technology%2C%20Design%20%26%20Manufacturing%2C%20Jabalpur!5e0!3m2!1sen!2sin!4v1710029876543!5m2!1sen!2sin"
                   className="w-full h-full border-0"
                   allowFullScreen
                   loading="lazy"
