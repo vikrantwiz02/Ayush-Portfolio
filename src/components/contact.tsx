@@ -58,7 +58,7 @@ export default function Contact() {
                 <Phone className="h-6 w-6" />
               </div>
               <h3 className="font-medium text-lg">Phone</h3>
-              <p className="text-muted-foreground">+1 (555) 123-4567</p>
+              <p className="text-muted-foreground">+91 7380680205</p>
             </CardContent>
           </Card>
 
@@ -68,7 +68,7 @@ export default function Contact() {
                 <Mail className="h-6 w-6" />
               </div>
               <h3 className="font-medium text-lg">Email</h3>
-              <p className="text-muted-foreground">john.doe@example.com</p>
+              <p className="text-muted-foreground">Your e-mail</p>
             </CardContent>
           </Card>
 
@@ -78,7 +78,7 @@ export default function Contact() {
                 <MapPin className="h-6 w-6" />
               </div>
               <h3 className="font-medium text-lg">Location</h3>
-              <p className="text-muted-foreground">San Francisco, California</p>
+              <p className="text-muted-foreground">Jabalpur, Madhya Pradesh</p>
             </CardContent>
           </Card>
         </div>
@@ -96,7 +96,7 @@ export default function Contact() {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="John Doe"
+                      placeholder="JName"
                       required
                     />
                   </div>
@@ -109,7 +109,7 @@ export default function Contact() {
                       type="email"
                       value={formData.email}
                       onChange={handleChange}
-                      placeholder="john@example.com"
+                      placeholder="Your Email"
                       required
                     />
                   </div>
@@ -133,7 +133,7 @@ export default function Contact() {
                       name="message"
                       value={formData.message}
                       onChange={handleChange}
-                      placeholder="Tell me about your project..."
+                      placeholder="Type your message..."
                       rows={5}
                       required
                     />
@@ -148,7 +148,7 @@ export default function Contact() {
 
               <div className="h-full min-h-[300px] lg:min-h-full">
                 <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100939.98555098464!2d-122.50764017948551!3d37.75781499657369!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1656268224857!5m2!1sen!2sus"
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3669.712753883726!2d79.01142637488447!3d23.173681811313585!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3981ae115e5cfc7d%3A0x5e5c4c2d79b3f5e6!2sPDPM%20Indian%20Institute%20of%20Information%20Technology%2C%20Design%20%26%20Manufacturing%2C%20Jabalpur!5e0!3m2!1sen!2sin!4v1710021234567!5m2!1sen!2sin"
                   className="w-full h-full border-0"
                   allowFullScreen
                   loading="lazy"
