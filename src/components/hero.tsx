@@ -117,7 +117,7 @@ export default function Hero() {
             variant="ghost"
             size="icon"
             className="rounded-full text-white hover:text-blue-400 hover:bg-white/10"
-            onClick={() => window.open("https://github.com/supernova0311", "_blank")}
+            onClick={() => window.open("https://github.com/supernova0311")}
             aria-label="GitHub Profile"
           >
             <Github className="h-5 w-5" />
@@ -126,7 +126,7 @@ export default function Hero() {
             variant="ghost"
             size="icon"
             className="rounded-full text-white hover:text-blue-400 hover:bg-white/10"
-            onClick={() => window.open("https://www.linkedin.com/in/ayushkumab5u6/", "_blank")}
+            onClick={() => window.open("https://www.linkedin.com/in/ayushkumab5u6/")}
             aria-label="LinkedIn Profile"
           >
             <Linkedin className="h-5 w-5" />
@@ -135,7 +135,7 @@ export default function Hero() {
             variant="ghost"
             size="icon"
             className="rounded-full text-white hover:text-blue-400 hover:bg-white/10"
-            onClick={() => window.open("https://www.codechef.com/users/ayush_ignites", "_blank")}
+            onClick={() => window.open("https://www.codechef.com/users/ayush_ignites")}
             aria-label="CodeChef Profile"
           >
             <CodeChefIcon className="h-5 w-5" />
@@ -144,7 +144,7 @@ export default function Hero() {
             variant="ghost"
             size="icon"
             className="rounded-full text-white hover:text-blue-400 hover:bg-white/10"
-            onClick={() => window.open("https://codeforces.com/profile/supernova0311", "_blank")}
+            onClick={() => window.open("https://codeforces.com/profile/supernova0311")}
             aria-label="CodeForces Profile"
           >
             <CodeForcesIcon className="h-5 w-5" />
@@ -154,4 +154,3 @@ export default function Hero() {
     </div>
   )
 }
-
