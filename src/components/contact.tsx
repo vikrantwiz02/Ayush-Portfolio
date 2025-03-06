@@ -68,7 +68,7 @@ export default function Contact() {
                 <Mail className="h-6 w-6" />
               </div>
               <h3 className="font-medium text-lg">Email</h3>
-              <p className="text-muted-foreground">Your e-mail</p>
+              <p className="text-muted-foreground">ayushkumar.inspire@gmail.com</p>
             </CardContent>
           </Card>
 
@@ -78,7 +78,7 @@ export default function Contact() {
                 <MapPin className="h-6 w-6" />
               </div>
               <h3 className="font-medium text-lg">Location</h3>
-              <p className="text-muted-foreground">Jabalpur, Madhya Pradesh</p>
+              <p className="text-muted-foreground">IIITDM Jabalpur, Madhya Pradesh</p>
             </CardContent>
           </Card>
         </div>

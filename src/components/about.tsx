@@ -48,7 +48,7 @@ export default function About() {
             viewport={{ once: true }}
             className="space-y-6"
           >
-            <h3 className="text-2xl font-bold">A passionate Full Stack Developer based in New Delhi, India</h3>
+            <h3 className="text-2xl font-bold">A passionate Full Stack Developer based in IIITDM Jabalpur, Madhya Pradesh, India</h3>
 
             <p className="text-muted-foreground">
               I am a full stack web developer with a passion for creating interactive and responsive web applications. I
@@ -56,7 +56,7 @@ export default function About() {
             </p>
 
             <p className="text-muted-foreground">
-              My journey in web development started 5 years ago, and since then, I've worked on numerous projects that
+              My journey in web development started 1 year ago, and since then, I've worked on numerous projects that
               have helped me refine my skills and stay up-to-date with the latest technologies and best practices.
             </p>
 
