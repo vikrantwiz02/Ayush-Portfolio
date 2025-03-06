@@ -96,7 +96,7 @@ export default function Contact() {
                       name="name"
                       value={formData.name}
                       onChange={handleChange}
-                      placeholder="JName"
+                      placeholder="Name"
                       required
                     />
                   </div>
